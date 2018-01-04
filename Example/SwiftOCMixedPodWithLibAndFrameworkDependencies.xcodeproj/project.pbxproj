@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0933C4D51FFE5F73002ACAEF /* AppOCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933C4D41FFE5F73002ACAEF /* AppOCObject.m */; };
+		0933C4D71FFE5F80002ACAEF /* AppSwiftObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933C4D61FFE5F80002ACAEF /* AppSwiftObject.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AD33CCF34CCAFB8487AC4A9 /* SwiftOCMixedPodWithLibAndFrameworkDependencies.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftOCMixedPodWithLibAndFrameworkDependencies.podspec; path = ../SwiftOCMixedPodWithLibAndFrameworkDependencies.podspec; sourceTree = "<group>"; };
-		23A4E6B9243B3D0F45756F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0933C4D21FFE5F73002ACAEF /* SwiftOCMixedPodWithLibAndFrameworkDependencies_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftOCMixedPodWithLibAndFrameworkDependencies_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		0933C4D31FFE5F73002ACAEF /* AppOCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppOCObject.h; sourceTree = "<group>"; };
+		0933C4D41FFE5F73002ACAEF /* AppOCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppOCObject.m; sourceTree = "<group>"; };
+		0933C4D61FFE5F80002ACAEF /* AppSwiftObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwiftObject.swift; sourceTree = "<group>"; };
+		0AD33CCF34CCAFB8487AC4A9 /* SwiftOCMixedPodWithLibAndFrameworkDependencies.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftOCMixedPodWithLibAndFrameworkDependencies.podspec; path = ../SwiftOCMixedPodWithLibAndFrameworkDependencies.podspec; sourceTree = "<group>"; };
+		23A4E6B9243B3D0F45756F47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5A613AF838891B2C8CC94FFE /* Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example/Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +47,7 @@
 		607FACE51AFB9204008FA782 /* SwiftOCMixedPodWithLibAndFrameworkDependencies_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOCMixedPodWithLibAndFrameworkDependencies_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75DA953622D9D2DB9869C8C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75DA953622D9D2DB9869C8C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A4BDAD443B53D19339E33542 /* Pods_SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB983B50508787DEE7BB9D27 /* Pods_SwiftOCMixedPodWithLibAndFrameworkDependencies_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOCMixedPodWithLibAndFrameworkDependencies_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C5DC4773EB86FE0AE28CAE /* Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example/Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +99,10 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftOCMixedPodWithLibAndFrameworkDependencies */ = {
 			isa = PBXGroup;
 			children = (
+				0933C4D31FFE5F73002ACAEF /* AppOCObject.h */,
+				0933C4D41FFE5F73002ACAEF /* AppOCObject.m */,
+				0933C4D61FFE5F80002ACAEF /* AppSwiftObject.swift */,
+				0933C4D21FFE5F73002ACAEF /* SwiftOCMixedPodWithLibAndFrameworkDependencies_Example-Bridging-Header.h */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -215,7 +225,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0920;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -370,6 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0933C4D71FFE5F80002ACAEF /* AppSwiftObject.swift in Sources */,
+				0933C4D51FFE5F73002ACAEF /* AppOCObject.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -517,11 +529,14 @@
 			baseConfigurationReference = F0C5DC4773EB86FE0AE28CAE /* Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftOCMixedPodWithLibAndFrameworkDependencies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftOCMixedPodWithLibAndFrameworkDependencies/SwiftOCMixedPodWithLibAndFrameworkDependencies_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -532,11 +547,13 @@
 			baseConfigurationReference = 5A613AF838891B2C8CC94FFE /* Pods-SwiftOCMixedPodWithLibAndFrameworkDependencies_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftOCMixedPodWithLibAndFrameworkDependencies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftOCMixedPodWithLibAndFrameworkDependencies/SwiftOCMixedPodWithLibAndFrameworkDependencies_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

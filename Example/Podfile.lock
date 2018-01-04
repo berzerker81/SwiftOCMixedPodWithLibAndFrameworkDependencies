@@ -1,0 +1,26 @@
+PODS:
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
+  - MiPushSDK (2.2.8)
+  - SwiftOCMixedPodWithLibAndFrameworkDependencies (0.1.0):
+    - Crashlytics
+    - Fabric
+    - MiPushSDK
+
+DEPENDENCIES:
+  - SwiftOCMixedPodWithLibAndFrameworkDependencies (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftOCMixedPodWithLibAndFrameworkDependencies:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
+  SwiftOCMixedPodWithLibAndFrameworkDependencies: eb17779ea80a9a81d652e4e232e17b3d7f292f45
+
+PODFILE CHECKSUM: 1f9b378cc005a25c8f15771cef95ec6809782d78
+
+COCOAPODS: 1.4.0.rc.1

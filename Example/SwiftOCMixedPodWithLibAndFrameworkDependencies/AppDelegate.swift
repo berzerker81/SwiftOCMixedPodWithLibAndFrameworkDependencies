@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftOCMixedPodWithLibAndFrameworkDependencies
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        print("\n\n\n", #line)
+        SwiftObject().hi()
+
+        print("\n\n\n", #line)
+        // TODO:
+        // OCObject().hi()
+
+        print("\n\n\n", #line)
+        AppOCObject().whatsUp()
+        
+        print("\n\n\n", #line)
+        AppSwiftObject().whatsUp()
+
         return true
     }
 
