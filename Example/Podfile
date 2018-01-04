@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftOCMixedPodWithLibAndFrameworkDependencies_Example' do
+  pod 'SwiftOCMixedPodWithLibAndFrameworkDependencies', :path => '../'
+
+  target 'SwiftOCMixedPodWithLibAndFrameworkDependencies_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
