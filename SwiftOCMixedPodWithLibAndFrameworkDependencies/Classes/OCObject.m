@@ -9,7 +9,7 @@
 @import Fabric;
 @import Crashlytics;
 #import "MiPushSDK.h"
-#import "SwiftOCMixedPodWithLibAndFrameworkDependencies-Swift.h"
+#import "SwiftOCMixedPodWithLibAndFrameworkDependencies/SwiftOCMixedPodWithLibAndFrameworkDependencies-Swift.h"
 
 @implementation OCObject
 

@@ -48,4 +48,6 @@ TODO: Add long description of the pod here.
   # library
   s.dependency 'MiPushSDK'
 
+  s.vendored_frameworks = 'SwiftOCMixedPodWithLibAndFrameworkDependencies/Frameworks/HelloSDK.framework'
+  s.public_header_files = 'Pod/Classes/**/*.h','SwiftOCMixedPodWithLibAndFrameworkDependencies/Frameworks/HelloSDK.framework/Headers/*.h'
 end
