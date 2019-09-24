@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'SwiftOCMixedPodWithLibAndFrameworkDependencies' => ['SwiftOCMixedPodWithLibAndFrameworkDependencies/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
@@ -48,6 +48,6 @@ TODO: Add long description of the pod here.
   # library
   s.dependency 'MiPushSDK'
 
-  s.vendored_frameworks = 'SwiftOCMixedPodWithLibAndFrameworkDependencies/Frameworks/HelloSDK.framework'
-  s.public_header_files = 'Pod/Classes/**/*.h','SwiftOCMixedPodWithLibAndFrameworkDependencies/Frameworks/HelloSDK.framework/Headers/*.h'
+  s.vendored_frameworks = 'Pod/Frameworks/HelloSDK.framework'
+  s.public_header_files = 'Pod/Classes/**/*.h','Pod/Frameworks/HelloSDK.framework/Headers/*.h'
 end
