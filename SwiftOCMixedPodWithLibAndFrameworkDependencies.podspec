@@ -48,6 +48,7 @@ TODO: Add long description of the pod here.
   # library
   s.dependency 'MiPushSDK'
 
-  s.vendored_frameworks = 'Pod/Frameworks/HelloSDK.framework'
-  s.public_header_files = 'Pod/Classes/**/*.h','Pod/Frameworks/HelloSDK.framework/Headers/*.h'
+  s.vendored_frameworks = 'SwiftOCMixedPodWithLibAndFrameworkDependencies/Frameworks/KakaoNavi.framework'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+   s.xcconfig = {"OTHER_LDFLAGS" => '$(inherited) -ObjC'}
 end

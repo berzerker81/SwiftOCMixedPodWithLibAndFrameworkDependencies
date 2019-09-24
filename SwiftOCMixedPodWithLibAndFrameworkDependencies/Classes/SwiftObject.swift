@@ -9,7 +9,6 @@ import Foundation
 import Fabric
 import Crashlytics
 
-
 @objc public class SwiftObject: NSObject {
 
     @objc public func hi() {
